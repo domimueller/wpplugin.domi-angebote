@@ -5,7 +5,7 @@
 
 
 
-function filter_posts_by_terms( $query ) {
+function filter_posts_by_termss( $query ) {
     
     // bail early if is in admin
     if( is_admin() ) return;

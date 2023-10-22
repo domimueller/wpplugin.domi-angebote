@@ -28,6 +28,6 @@ add_action( 'wp_enqueue_scripts', 'domi_angebote_customcss');
 include $plugin_url . '/includes/customPostType.php';
 include $plugin_url . '/includes/advancedCustomFields.php';
 include $plugin_url . '/includes/customTaxonomy.php';
-
+include $plugin_url . '/includes/filterByAngebotTerm.php';
 
 ?>
