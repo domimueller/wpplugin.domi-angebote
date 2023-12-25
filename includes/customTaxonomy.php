@@ -25,7 +25,7 @@ function add_angebote_taxonomy() {
     ),
     // Control the slugs used for this taxonomy
     'rewrite' => array(
-      'slug' => 'angebotstyp', // This controls the base slug that will display before each term
+      'slug' => 'angebote', // This controls the base slug that will display before each term
       'with_front' => false, // Don't display the category base before "/locations/"
       'hierarchical' => true // This will allow URL's like "/locations/boston/cambridge/"
     ),

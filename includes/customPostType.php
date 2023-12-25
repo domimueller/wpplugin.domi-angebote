@@ -33,7 +33,9 @@ function domi_angebot_cpt() {
             'publicly_queryable'  => true,
             'capability_type'     => 'post',
             'map_meta_cap'        => true,
-            'rewrite'             => false,
+            'rewrite'                => array(
+                        'slug'    => 'angebot'
+                        ),  
             'menu_icon'           => 'dashicons-heart',
         )
     );
